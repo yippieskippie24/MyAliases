@@ -23,7 +23,7 @@ cat <<EOF > ~/.MyBashAliases
 	alias ping='ping -c 5'
 	
 	unalias openports
-	alias ports='netstat -plntu'
+	alias openports='netstat -plntu'
 	
 	unalias meminfo
 	alias meminfo='free -mlth'
