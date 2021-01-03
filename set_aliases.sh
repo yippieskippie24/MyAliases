@@ -1,4 +1,5 @@
 #! /bin/bash
+#Tyler M Johnson
 
 #Script used to set my aliases
 
