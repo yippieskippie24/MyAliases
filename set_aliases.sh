@@ -42,7 +42,8 @@ if [ -f ~/.bashrc ]; then
 	#sed -i '~/.MyBashAliases' ~/.bashrc
 	
 	# adding new set
-	echo '\nsource ~/.MyBashAliases' >> ~/.bashrc
+	echo '' >> ~/.bashrc
+	echo 'source ~/.MyBashAliases' >> ~/.bashrc
 	
 	echo "Close and reopen terminal to changes take effect (or source .bashrc)"
 fi
