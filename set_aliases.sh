@@ -10,9 +10,6 @@ function CreateMyAliases(){
 	fi
 cat <<EOF > ~/.MyBashAliases
 	
-	unalias ll
-	alias ll='ls -alhF'
-	
 	unalias cd..
 	alias cd..='cd ..'
 	
@@ -25,8 +22,8 @@ cat <<EOF > ~/.MyBashAliases
 	unalias ping
 	alias ping='ping -c 5'
 	
-	unalias ports
-	alias ports='netstat -tulanp'
+	unalias openports
+	alias ports='netstat -plntu'
 	
 	unalias meminfo
 	alias meminfo='free -mlth'
