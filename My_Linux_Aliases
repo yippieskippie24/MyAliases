@@ -1,0 +1,6 @@
+alias cd..='cd ..'
+alias ..='cd ..'
+alias now='date'
+alias ping='ping -c 5'
+alias openports='ss -plntu'
+alias meminfo='free -mlth'
